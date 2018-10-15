@@ -11,8 +11,7 @@
    
    #### 布局中:
    
-   <com.kyle.gradientseekbar.MySeekBarLine
-   
+    <com.kyle.gradientseekbar.MySeekBarLine
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
         app:txtColor="@color/colorPrimary"  //文字颜色
@@ -33,6 +32,6 @@
         
    #### 监听进度
    
-   seekBar.setOnProgressChangeListener {  progress -> </br>
-            tvProgress.text = progress.toString()</br>
+     seekBar.setOnProgressChangeListener {  progress -> 
+            tvProgress.text = progress.toString()
         }
