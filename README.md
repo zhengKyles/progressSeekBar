@@ -1,13 +1,13 @@
 # progressSeekBar
 一款进度条控件，可点可滑动
+ 
+### 效果
 
-#效果
-
-#使用:
+### 使用:
     implementation ("com.kyle:progressSeekBar:1.0.0")
     
    
-   布局中:
+   #### 布局中:
    
    <com.kyle.gradientseekbar.MySeekBarLine
    
