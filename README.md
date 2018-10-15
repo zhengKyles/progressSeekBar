@@ -8,10 +8,11 @@
     
    
    布局中:
+   
    <com.kyle.gradientseekbar.MySeekBarLine
+   
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
-        
         app:txtColor="@color/colorPrimary"  //文字颜色
         app:txtSize="16dp"                //文字大小
         app:viewMarginTop="30dp"          //布局上间距
