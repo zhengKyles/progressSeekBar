@@ -11,7 +11,8 @@
    <com.kyle.gradientseekbar.MySeekBarLine
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
-        app:txtColor="@color/colorPrimary"//文字颜色
+        
+        app:txtColor="@color/colorPrimary"  //文字颜色
         app:txtSize="16dp"                //文字大小
         app:viewMarginTop="30dp"          //布局上间距
         app:viewMarginLeft="20dp"         //布局左间距
