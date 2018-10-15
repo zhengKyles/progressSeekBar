@@ -30,3 +30,9 @@
         app:maxUnit="60"                    //单位最大数值  比如1-60分钟，就写60
         app:lineOverLength="35dp"           //超出最大值的线条长度
         android:layout_height="100dp" />    
+        
+   #### 监听进度
+   
+   seekBar.setOnProgressChangeListener {  progress -> </br>
+            tvProgress.text = progress.toString()</br>
+        }
