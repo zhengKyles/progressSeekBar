@@ -3,6 +3,8 @@
  
 ### 效果
 
+![](https://github.com/zhengKyles/Images/blob/master/progressSeekBarSample.gif)
+
 ### 使用:
     implementation ("com.kyle:progressSeekBar:1.0.0")
     
