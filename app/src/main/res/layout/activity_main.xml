@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.kyle.gradientseekbar.MySeekBarLine
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        app:txtColor="@color/colorPrimary"
+        app:txtSize="16dp"
+        app:viewMarginTop="30dp"
+        app:viewMarginLeft="20dp"
+        app:viewMarginRight="20dp"
+        app:txtMargin="15dp"
+        app:childRadius="15dp"
+        app:startColor="@color/colorPrimary"
+        app:endColor="@color/colorAccent"
+        app:grayColor="#e1e1e1"
+        app:lineHeight="3dp"
+        app:maxCount="5"
+        app:maxUnit="60"
+        app:lineOverLength="35dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+</LinearLayout>

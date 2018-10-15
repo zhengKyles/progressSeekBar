@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MySeekBarLine">
+        <attr name="txtColor" format="color"/>
+        <attr name="txtSize"  format="dimension"/>
+        <attr name="viewMarginTop" format="dimension"/>
+        <attr name="viewMarginLeft" format="dimension"/>
+        <attr name="viewMarginRight" format="dimension"/>
+        <attr name="txtMargin" format="dimension"/>
+        <attr name="childRadius" format="dimension"/>
+        <attr name="startColor" format="color"/>
+        <attr name="endColor" format="color"/>
+        <attr name="grayColor" format="color"/>
+        <attr name="lineHeight" format="dimension"/>
+        <attr name="maxCount" format="integer"/>
+        <attr name="maxUnit" format="integer"/>
+        <attr name="lineOverLength"  format="dimension"/>
+    </declare-styleable>
+</resources>
